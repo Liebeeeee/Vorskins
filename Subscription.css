@@ -1,0 +1,205 @@
+/* navigation */
+*{
+    margin : 0;
+}
+header{
+    background-color: #E4AEC5;
+    padding: 15px;
+    text-align: center;
+}
+.judul{
+    color: #000000;
+    font-family: harland roselyn regular;
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.menu2{
+    background-color: #E4AEC5;
+    justify-content: space-between;
+    color: #000000;
+    text-align: center;
+    font-family: poppins;
+    text-decoration: none;
+    padding : 10px 15px;
+}
+.menu2:hover{
+    color: white;
+    transition: 250ms;
+}
+
+/* body */
+.body{
+    background-color: #FFF6EA;
+    padding-top: 30px;
+    text-align: center;
+    padding-bottom: 550px;
+}
+
+.body h1{
+    font-size: 45px;
+    padding-bottom: 30px;
+}
+
+.body h2{
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+.subscribe{
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.welcome{
+    position: relative;
+    display: flex;
+    float: left;
+    left: 8%;
+    padding-top: 100px;
+}
+
+.subscribe-box{
+    right: 8%;
+    float: right;
+    position: relative;
+    align-content: center;
+    background-color: #E4AEC5;
+    box-shadow: 0 0 10px 0 #999;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 15px 130px 15px 130px;
+    bottom: 10%;
+}
+
+.google-btn{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    background: #FFF6EA;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    padding-right: 40px;
+    padding-left: 40px;
+    text-align: right;
+}
+
+.or{
+    text-align: center;
+}
+
+.group-google-btn{
+    position: relative;
+    align-self: center;
+    list-style: none;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    padding-left: 1px;
+    text-align: center;
+}
+
+.google-login{
+    position: relative;
+    width: 23px;
+    padding-right: 30px;
+}
+
+.body h4{
+    text-decoration: none;
+    color: #000000;
+    padding-left: 115px;
+}
+
+.input{
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    padding-left: 130px;
+    padding-right: 130px;
+    margin-top: 20px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    outline: none;
+}
+
+.btn{
+    background-color: #E3337E;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 10px 32px;
+    color: white;
+}
+
+.btn:hover{
+    transition: 300ms;
+    color: #000000;
+    cursor: pointer;
+}
+
+/* footer */
+footer{
+    background-color: #E4AEC5;
+    display: flex;
+    justify-content: space-between;
+}
+.kiri{
+    padding-left: 50px;
+    padding-top: 60px;
+}
+.find-us-more{
+    padding-left: 33px;
+    padding-bottom: 10px;
+    font-family: poppins;
+}
+.sosmed{
+    width: 40px;
+    padding : 2px;
+    cursor: pointer;
+}
+.utube{
+    width : 50px;
+    cursor: pointer;
+}
+.tengah{
+    padding-top: 40px;
+    text-align: center;
+    font-family: poppins;
+    list-style: none;
+}
+.contact:hover{
+    cursor: pointer;
+    color: white;
+    transition: 250ms;
+}
+.kanan{
+    padding-top: 40px;
+    text-align: center;
+    font-family: poppins;
+    padding-right: 50px;
+}
+.dc{
+    font-size: 10px;
+    padding-bottom: 30px;
+}
+.copyr{
+    font-size: 10px;
+    text-align: right;
+    padding-top: 80px;
+    
+}
+.sub{
+    font-size: 24;
+    background-color: #E3337E;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.sub:hover{
+    color: #000000;
+    transition: 250ms;
+}

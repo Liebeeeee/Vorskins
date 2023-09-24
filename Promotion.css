@@ -1,0 +1,203 @@
+/* navigation */
+*{
+    margin : 0;
+}
+header{
+    background-color: #E4AEC5;
+    padding: 15px;
+    text-align: center;
+}
+.judul{
+    color: #000000;
+    font-family: harland roselyn regular;
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.menu2{
+    background-color: #E4AEC5;
+    justify-content: space-between;
+    color: #000000;
+    text-align: center;
+    font-family: poppins;
+    text-decoration: none;
+    padding : 10px 15px;
+}
+.menu2:hover{
+    color: white;
+    transition: 250ms;
+}
+
+/* promotion */
+.body{
+    background-color: #FFF6EA;
+    text-align: center;
+    margin: auto;
+    padding: 70px;
+    font-family: poppins,sans-serif;
+}
+
+.body h1{
+    padding-top: 20px;
+    font-size: 45px;
+    padding-bottom: 30px;
+}
+
+.mother-div-promotion{
+    display: flex;
+	flex-direction: column;
+    justify-content: center;
+}
+
+.title-div{
+    top: 10px;
+    position: relative;
+    margin: auto;
+    background-color: #E4AEC5;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.div-img{
+    margin: auto;
+    border-radius: 10px;
+    padding: 15px 20px 15px 20px;
+    background-color: #E4AEC5;
+}
+
+.div-column{
+    margin: auto;
+    justify-content: space-evenly;
+    align-items: baseline;
+    align-content: stretch;
+    border-radius: 10px;
+    padding: 15px 20px 15px 20px;
+    background-color: #E4AEC5;
+}
+
+.div-container{
+    background-color: white;
+    box-shadow: 0 0 10px 0 #999;
+    flex-direction: column;
+}
+
+.flash-sale{
+    background-color: #FAD9E6;
+    font-family: poppins;
+    margin-top: 20px;
+}
+.mit{
+    text-align: center;
+    padding : 30px 0px;
+    font-size: 50px;
+}
+hr{
+    width : 1500px;
+    position: relative;
+    margin: auto;
+}
+
+.fss{
+    
+    background-color: #E4AEC5;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+	align-content: stretch;
+    padding: 30px;
+    border-radius: 10px;
+}
+.fs1{
+    background-color: white;
+    border-radius: 40px;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+}
+.fs1:hover{
+    transform: scale(1.2);
+    transition: 250ms;
+}
+.merk{
+    font-size: 20px;
+}
+.before{
+    text-decoration: line-through;
+}
+.after{
+    color: #E3337E;
+}
+.disc{
+    margin: 15px;
+    background-color: rgb(228, 174, 197, 0.5);
+    border-radius: 1000px;
+}
+
+
+/* footer */
+footer{
+    background-color: #E4AEC5;
+    display: flex;
+    justify-content: space-between;
+}
+.kiri{
+    padding-left: 50px;
+    padding-top: 60px;
+}
+.find-us-more{
+    padding-left: 33px;
+    padding-bottom: 10px;
+    font-family: poppins;
+}
+.sosmed{
+    width: 40px;
+    padding : 2px;
+    cursor: pointer;
+}
+.utube{
+    width : 50px;
+    cursor: pointer;
+}
+.tengah{
+    padding-top: 40px;
+    text-align: center;
+    font-family: poppins;
+    list-style: none;
+}
+.contact:hover{
+    cursor: pointer;
+    color: white;
+    transition: 250ms;
+}
+.kanan{
+    padding-top: 40px;
+    text-align: center;
+    font-family: poppins;
+    padding-right: 50px;
+}
+.dc{
+    font-size: 10px;
+    padding-bottom: 30px;
+}
+.copyr{
+    font-size: 10px;
+    text-align: right;
+    padding-top: 80px;
+    
+}
+.sub{
+    font-size: 24;
+    background-color: #E3337E;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.sub:hover{
+    color: #000000;
+    transition: 250ms;
+}
